@@ -46,4 +46,6 @@ NUM_SAMPLES = 16          # how many images to generate for visualization
 DDIM_STEPS = 50           # number of steps for DDIM sampling
 CFG_SCALE = 5.0           # classifier-free guidance scale
 
-
+# ---------- Paths ----------
+CHECKPOINT_DIR = "checkpoints"
+SAMPLE_DIR = "samples"

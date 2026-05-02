@@ -3,9 +3,9 @@ Hyperparameters
 """
 
 # ---------- Data ----------
-IMAGE_SIZE = 64
+IMAGE_SIZE = 128
 CHANNELS = 3
-BATCH_SIZE = 64
+BATCH_SIZE = 32
 
 # CelebA attributes 
 SELECTED_ATTRS = [
@@ -43,8 +43,8 @@ SAMPLE_EVERY = 10         # generate samples every N epochs
 NUM_SAMPLES = 16          # how many images to generate for visualization
 
 # ---------- Sampling ----------
-DDIM_STEPS = 50           # number of steps for DDIM sampling
-CFG_SCALE = 5.0           # classifier-free guidance scale
+DDIM_STEPS = 100          # number of steps for DDIM sampling
+CFG_SCALE = 7.0           # classifier-free guidance scale
 
 # ---------- Paths ----------
 CHECKPOINT_DIR = "checkpoints"

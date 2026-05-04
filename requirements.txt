@@ -1,6 +1,7 @@
 torch
 torchvision
 wandb
-gradio
 numpy
 Pillow
+gradio
+pandas
